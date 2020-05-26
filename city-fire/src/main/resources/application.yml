@@ -4,7 +4,7 @@ server:
     uri-encoding: UTF-8
     max-threads: 1000
     min-spare-threads: 30
-  port: 8080
+  port: 80
   connection-timeout: 5000ms
   servlet:
     context-path: /city-fire
@@ -24,7 +24,7 @@ spring:
       max-request-size: 100MB
       enabled: true
   file:
-    basefileroot: D:\\temp
+    basefileroot: \\temp
   redis:
     open: false  # 是否开启redis缓存  true开启   false关闭
     database: 0
